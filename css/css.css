@@ -1,0 +1,473 @@
+/* Stilizimi i headerit */
+
+#Header {
+    font-family: 'Quicksand', sans-serif;
+    z-index: 100000;
+}
+
+.logo {
+    width: 50%; 
+}
+
+div#Header {
+    background-color: rgba(255, 255, 255, 0.603);
+    position: sticky;
+    top: 0;
+}
+
+.fotoja_shkolles {
+    width: 100%;
+    height: 80vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.title {
+    height: 100%;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title:hover {
+    transform: scale(1.2);
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+
+p.linku-nav {
+    color: #7C6F5E;
+    font-size: larger;
+    border-radius: 5%;
+    padding: 5px;
+}
+
+p.linku-nav:hover {
+    background-color: #7c6f5e3a;
+    transform: scale(1.1);
+    transition-duration: 0.1s;
+}
+
+/* Stilizimi i contentit */
+
+.content {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+
+.d70 {
+    width: 70%;
+    margin: 150px auto;
+}
+
+.heading1 {
+    color: #151F59;
+    text-align: center;
+    margin: 50px;
+}
+
+.tekst {
+    text-align: center;
+    font-size: 30px;
+    width: 75%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hr {
+    width: 100%;
+    border: 5px solid #516F71;
+    color: #516F71;
+    margin: 150px auto;
+}
+
+.button {
+    margin: 70px auto;
+    text-align: center;
+    padding: 15px;
+}
+
+a img.logo2 {
+    width: 250px;
+    filter: grayscale(100%);
+}
+
+a img.logo2:hover {
+    transform: scale(1.1);
+    transition-duration: 0.2s;
+    filter: grayscale(0%);
+}
+
+.stafi {
+    width: 100%;
+    margin: auto;
+}
+
+.subheading_stafi {
+    margin: 100px auto;
+}
+
+.subheading {
+    color: #516F71;
+    text-align: center;
+}
+
+.yt_video {
+    padding: 50px 50px 50px 0px;
+    float: left;
+}
+
+div.tekst1>p {
+    margin: 100px auto;
+    text-align: center;
+    font-size: 30px;
+}
+
+/* AKTIVITETET */
+
+.d85 {
+    width: 85%;
+    margin: 100px auto;
+}
+
+hr.fine {
+    width: 100%;
+    border: 1px solid #516F71;
+    color: #516F71;
+    margin: 35px auto;
+}
+
+.aktivitet {
+    padding: 30px;
+}
+
+.titull_akt {
+    color: #7C6F5E;
+}
+
+.shih_me_sh {
+    background-color: #d4bfa300;
+    border: 4px solid #7c6f5e;
+    border-radius: 5%;
+    color: #7C6F5E;
+    padding: 10px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: medium;
+}
+
+button.shih_me_sh:hover {
+    transform: scale(1.1);
+    background-color: #cfba9e;
+}
+
+.img_akt {
+    width: 80%;
+    margin: 20px 0;
+    transition-duration: 0.3s;
+}
+
+img.img_akt:hover {
+    transform: scale(1.2);
+}
+
+/* Stilizimi i footerit */
+
+.footer {
+    background-color: #89B3D9;
+    width: 100%;
+}
+
+.content-footer {
+    width: 95%;
+    margin: auto;
+    color: #293991;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding: 15px;
+}
+
+.seksion_footer {
+    padding: 50px 10px;
+}
+
+.subheading2 {
+    text-align: left;
+    color: #151F59;
+
+}
+
+
+
+/* VIDEOT MESIMORE */
+
+.buton_kls {
+    width: 100%;
+    padding: 30px;
+    margin: 20px auto;
+    background-color: #d4bfa300;
+    border: 4px solid #7c6f5e;
+    color: #7C6F5E;
+    font-family: 'Quicksand', sans-serif;
+    font-size: larger;
+}
+
+.buton_kls:hover {
+    transform: scale(1.1);
+    background-color: #cfba9e;
+}
+
+.title_vid {
+    color: #516F71;
+    font-size: larger;
+    text-align: center;
+    padding: 10px 30px;
+}
+
+.slider-item {
+    cursor: pointer;
+}
+
+.subject {
+    margin-top: 30px;
+    margin-bottom: 150px;
+}
+
+/* dok mesuesi */
+
+.buton_links {
+    width: 100%;
+    padding: 30px;
+    margin: 20px auto;
+    background-color: #516f7175;
+    border: 4px solid #396063cc;
+    color: #ffffff;
+    font-size: larger;
+    transition-duration: 0.1s;
+}
+
+.buton_links:hover {
+    transform: scale(1.1);
+    background-color: #516f71;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+/* kontakt */
+
+.icon {
+    margin: 20px 20px 20px 0px;
+    font-family: 'Quicksand', sans-serif;
+    width: 30px;
+    height: 30px;
+    background-color: #516f7141;
+    text-align: center;
+    display: flex;
+    padding: 5px 0px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.icon:hover {
+    transform: scale(1.1);
+    background-color: #516f71a8;
+}
+
+.link1 {
+    color: #293991;
+    text-decoration: none;
+}
+
+.akt {
+    background-color: blue;
+    height: 100px;
+}
+
+.akt1 {
+    background-color: rgb(0, 0, 0);
+    height: 100px;
+}
+
+/*  MEDIA QUERIES  */
+
+@media (max-width: 576px) {
+    .title {
+        text-align: center;
+    }
+
+    .fotoja_shkolles {
+        height: 60vh;
+        background-attachment: initial;
+    }
+
+    .logo {
+        width: 25%;
+    }
+
+    .heading1 {
+
+        margin: 50px 20px;
+    }
+
+    .tekst {
+        font-size: 100%;
+        width: 95%;
+    }
+
+    .d70 {
+        width: 90%;
+    }
+
+    .subheading {
+        margin: 20px;
+    }
+
+    .yt_video {
+        padding: 0;
+        float: none;
+        margin: 30px 0px;
+    }
+
+    .video1 {
+        width: 100%;
+    }
+
+    .content-footer {
+        width: 50%;
+        margin: auto;
+        color: #151F59;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        padding: 15px;
+    }
+
+    .content-footer img {
+        width: 40px;
+        float: left;
+    }
+
+    div.teksti {
+        font-size: small;
+        width: 100%;
+        text-align: left;
+        margin: 10px 0px;
+        font-family: 'Heebo', sans-serif;
+    }
+
+    p.linku-nav:hover {
+        background-color: #ffffff;
+    }
+
+    .hr {
+        margin: 50px 0px;
+    }
+
+    div.tekst1>p {
+        font-size: 100%;
+        width: 95%;
+    }
+
+    span.text {
+        font-size: smaller;
+    }
+
+    .footer {
+        background-color: #89B3D9;
+        width: 100%;
+    }
+
+    .content-footer {
+        width: 100%;
+        margin: auto;
+        color: #293991;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        padding: 15px;
+    }
+
+    .seksion_footer {
+        padding: 5px;
+    }
+
+    .content_kart {
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) and (min-width: 576px) {
+
+    .d70 {
+        width: 90%;
+    }
+
+    .heading1 {
+
+        margin: 50px 20px;
+    }
+
+    .tekst {
+        font-size: 100%;
+        width: 95%;
+    }
+
+    div.tekst>p {
+        font-size: 100%;
+        width: 95%;
+    }
+
+    .content_kart {
+        text-align: center;
+    }
+}
+
+@media (min-width: 768px) {
+    .title {
+        font-size: 100px;
+    }
+
+    .heading1 {
+        font-size: 70px;
+    }
+}
+
+/* Contact form */
+
+.input-group-btn .btn {
+    margin: 0 0 7px 0
+}
+
+.form-group.form-group-sm .input-group-btn .btn {
+    margin: 0 0 3px 0
+}
+
+.form-group.form-group-lg .input-group-btn .btn {
+    margin: 0 0 9px 0
+}
+
+.input-group .input-group-btn {
+    padding: 0 12px
+}
+
+button.btn {
+    background-color: #ffffff;
+}
+
+.revista_kuti {
+    margin: 20px 0px;
+}
